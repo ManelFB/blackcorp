@@ -7,6 +7,36 @@
 		font-size: 15px;
 	}
 
+	table {
+  		font-size: 30px;
+		background-color: white;
+		width: 500px;
+		margin: 0px auto;
+		border-collapse: collapse;
+		border: 2px solid rgb(200,200,200);
+  		text-align: center;
+		padding: 10px 20px;
+		border: 1px solid rgb(190,190,190);
+	}
+	
+	@media screen and (max-width: 564px) {
+		table {
+	  		font-size: 20px;
+			width: 90%;
+		}
+	}
+
+
+	.head {
+		font-style: bold;
+		background-color: lightgrey;
+	}
+
+	td {
+		border: 1px solid rgb(190,190,190);
+		padding: 15px 20px;
+	}
+
 	.svg {
 		height: 20px;
 		margin-left: 15px;
@@ -61,4 +91,10 @@
 	h1 {
 		font-family: "Montserrat";
 		font-size: 50px;
+	}
+
+	@media screen and (max-width: 564px) {
+		h1 {
+			font-size: 35px;
+		}
 	}
