@@ -1,100 +1,129 @@
-	* {
-		font-family: "Montserrat";
-		font-style: bold;
-	}
+* {
+	font-family: "Montserrat";
+	font-style: bold;
+}
 
-	span {
-		font-size: 15px;
-	}
+span {
+	font-size: 15px;
+}
 
-	table {
-  		font-size: 30px;
-		background-color: white;
-		width: 500px;
-		margin: 0px auto;
-		border-collapse: collapse;
-		border: 2px solid rgb(200,200,200);
-  		text-align: center;
-		padding: 10px 20px;
-		border: 1px solid rgb(190,190,190);
-	}
+.item {
+	display: inline-block;
+	vertical-align: middle
+}
+
+table {
+  	font-size: 30px;
+	background-color: white;
+	width: 500px;
+	margin: 0px auto;
+	border-collapse: collapse;
+	border: 2px solid rgb(200,200,200);
+  	text-align: center;
+	padding: 10px 20px;
+	border: 1px solid rgb(190,190,190);
+}
 	
-	@media screen and (max-width: 564px) {
-		table {
-	  		font-size: 20px;
-			width: 90%;
-		}
+@media screen and (max-width: 564px) {
+	table {
+  		font-size: 20px;
+		width: 90%;
 	}
+}
 
+.head {
+	font-style: bold;
+	background-color: lightgrey;
+}
 
-	.head {
-		font-style: bold;
-		background-color: lightgrey;
-	}
+td {
+	border: 1px solid rgb(190,190,190);
+	padding: 15px 20px;
+}
 
-	td {
-		border: 1px solid rgb(190,190,190);
-		padding: 15px 20px;
-	}
+.svg {
+	height: 20px;
+	margin-left: 15px;
+}
 
-	.svg {
-		height: 20px;
-		margin-left: 15px;
-	}
+.prix {
+	max-width: 350px;
+	height: auto;
+	padding-bottom: 17px;
+}
 
-	.prix {
-		max-width: 350px;
-		height: auto;
-		padding-bottom: 17px;
-	}
+.download {
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+	border: 0;
+	margin: 0 auto;
+	align-content: center;
+	display: block;
+	text-align: center;
+	background-color: #394153;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 15px;
+}
 
-	.download {
-	    line-height: 2.5;
-	    padding: 0 20px;
-	    text-align: center;
-		border: 0;
-		margin: 0 auto;
-		align-content: center;
-		display: block;
-		text-align: center;
-		background-color: #394153;
-		padding-left: 1em;
-		padding-right: 1em;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		border-radius: 15px;
-	}
+a {
+	align-items: center;
+	display: flex;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-style: normal;
+	padding-left: 1em;
+	padding-right: 1em;
+}
 
-	a {
-		align-items: center;
-		display: flex;
-		text-decoration: none;
-		color: white;
-		text-align: center;
-		font-style: normal;
-		padding-left: 1em;
-		padding-right: 1em;
-	}
+img {
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+body {
+	background: right top no-repeat url("https://i.imgur.com/fVBfAdZ.png");
+}
 
-	img {
-		height: 200px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
+h1 {
+	font-family: "Montserrat";
+	font-size: 50px;
+}
 
-	body {
-		background: right top no-repeat url("https://i.imgur.com/fVBfAdZ.png");
-	}
-
+@media screen and (max-width: 564px) {
 	h1 {
-		font-family: "Montserrat";
-		font-size: 50px;
+		font-size: 35px;
 	}
+}
 
-	@media screen and (max-width: 564px) {
-		h1 {
-			font-size: 35px;
-		}
+iframe {
+	padding: 45px;
+	margin: 0px auto;    
+	display: grid;
+}
+
+@media screen and (max-width: 564px) {
+	iframe {
+		width: 90%;
+		padding: 10px 20px;
+		padding-top: 45px;
+		padding-bottom: 45px;
 	}
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
